@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(69, 57, 77);
+}
+.maca{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.cobrinha{
+    width:40px;
+    height: 60px;
+    background-color: chartreuse;
+    transition: width 1s;
+}
+.cobrinha:hover{
+    width: 200px;
+}
+.pai{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+}
+/*****************************/
+.caixinha{
+opacity: 1;
+transition: opacity 1s ease;
+    transition-delay: 2s;
+    position: relative;
+}
+.base{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(131, 222, 238);
+    display: flex;
+    gap: 5px;
+}
+.listra{
+    width: 5px;
+    height: 50px;
+    background-color: rgb(161, 161, 209);
+}
+.laco{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.asa{
+    height: 30px;
+    width: 15px;
+    background-color: brown;
+    border-radius: 50%;
+    transform:rotate(45deg);
+    position: absolute;
+    left: 25px;
+    top:-20px;
+}
+.asa1{
+    height: 30px;
+    width: 15px;
+    background-color: brown;
+    border-radius: 50%;
+    transform:rotate(-50deg);
+    position: absolute;
+    left: 10px;
+    top:-20px;
+}
+.pop{
+     height: 15px;
+    width: 15px;
+    background-color: rgb(112, 32, 32);
+    border-radius: 50%;
+    position: absolute;
+    left: 19px;
+    top:-6px;
+}
+/*****************/
+.invi{
+   .invi {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    opacity: 1;
+}
+}
+.idk {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 100px;
+}
+.fet {
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    margin-top: 200px;
+    top: 18%;
+    left: 50%;
+    opacity: 0;
+    transition: opacity 0.5s, transform 0.8s;
+    transition-delay: 2s;
+}
+.c1{
+    background-color: red;
+}
+.c2{
+    background-color: blue;
+}
+.c3{
+    background-color: orange;
+}
+.c4{
+    background-color: green;
+}
+.c5{
+    background-color: dodgerblue;
+}
+.c6{
+    background-color: mediumvioletred;
+}
+.c7{
+    background-color: darkslateblue;
+}
+.c8{
+    background-color: brown;
+}
+.c9{
+    background-color: blueviolet;
+}
+.c10{
+    background-color: black;
+}
+.c11{
+    background-color: beige;
+}
+.c12{
+    background-color: aqua;
+}
+.caixinha:hover {
+    opacity: 0;
+}
+.idk:hover .fet {
+    opacity: 1;
+}
+
+.idk:hover .c1 {
+    transform: translate(-50px, -50px) rotate(45deg);
+}
+
+.idk:hover .c2 {
+    transform: translate(50px, -60px) rotate(90deg);
+}
+
+.idk:hover .c3 {
+    transform: translate(-60px, 10px) rotate(135deg);
+}
+
+.idk:hover .c4 {
+    transform: translate(60px, 20px) rotate(180deg);
+}
+
+.idk:hover .c5 {
+    transform: translate(-25px, 30px) rotate(22deg);
+}
+.idk:hover .c6 {
+    transform: translate(-25px, -20px) rotate(45deg);
+}
+
+.idk:hover .c7 {
+    transform: translate(25px, -25px) rotate(67deg);
+}
+
+.idk:hover .c8 {
+    transform: translate(-25px, 5px) rotate(11deg);
+}
+
+.idk:hover .c9 {
+    transform: translate(50px, 5px) rotate(170deg);
+}
+
+.idk:hover .c10 {
+    transform: translate(-20px, 50px) rotate(260deg);
+}
